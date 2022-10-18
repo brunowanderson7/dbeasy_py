@@ -3,7 +3,7 @@ import sqlite3
 
 def createTable(dbName):
 
-    """Método utilizado para criação de tabelas do banco de dados
+    """Method used to create database tables
     
     Parameters
     ----------
@@ -77,12 +77,12 @@ def createTable(dbName):
 
 def insertTable(dbName):
 
-    """Método utilizado para inserir dados na tabela
+    """Method used to insert data into the table
     
     Parameters
     ----------
     dbName : str
-        Receives the name of the database that will be inserted into the table
+        Recives the name of the database to insert data on the table
     
     Returns
     -------
@@ -139,17 +139,17 @@ def insertTable(dbName):
 
 def searchTable (dbName):
 
-    """Método utilizado para buscar um dado em uma tabela
+    """Method used to retrieve data from a table
     
     Parameters
     ----------
     dbName : str
-        Receives the name of the database that will be inserted into the table
+        Receives the name of the database to search the table
     
     Returns
     -------
-    bool
-        True or False according to the table insert result
+    list
+        Returns a list containing the table data
     """
 
 
@@ -170,12 +170,12 @@ def searchTable (dbName):
 
 def deleteTable (dbName):
 
-    """Método utilizado para deletar tabelas do banco de dados
+    """Method used to delete tables from the database
     
     Parameters
     ----------
     dbName : str
-        Receives the name of the database that will be inserted into the table
+        Receives the name of the database to delete the table
     
     Returns
     -------
@@ -198,12 +198,12 @@ def deleteTable (dbName):
 
 def deleteItem (dbName):
 
-    """Método utilizado para deletar iten de uma tabela
+    """Method used to delete item from a table
     
     Parameters
     ----------
     dbName : str
-        Receives the name of the database that will be inserted into the table
+        Receives the name of the database to delete the iten
     
     Returns
     -------
